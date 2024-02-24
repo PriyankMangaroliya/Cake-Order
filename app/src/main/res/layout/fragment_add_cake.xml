@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:orientation="vertical"
+    tools:context=".AddCakeFragment">
+
+    <androidx.cardview.widget.CardView style="@style/card">
+
+        <LinearLayout style="@style/linearlayoutvertical">
+
+            <EditText
+                android:id="@+id/etCakeName"
+                style="@style/EditText"
+                android:hint="Cake Name" />
+
+            <EditText
+                android:id="@+id/etCategoryName"
+                style="@style/EditText"
+                android:hint="Category Name" />
+
+            <EditText
+                android:id="@+id/etPrice"
+                style="@style/EditText"
+                android:hint="Price"
+                android:inputType="number"
+                android:maxLength="4" />
+
+            <EditText
+                android:id="@+id/etCakeDescription"
+                style="@style/EditText"
+                android:hint="Cake Description" />
+
+            <Button
+                android:id="@+id/btnSaveCake"
+                style="@style/button"
+                android:text="Add Cake" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:orientation="vertical"
+    tools:context=".CakeCategoryInfo">
+
+    <androidx.cardview.widget.CardView style="@style/card">
+
+        <LinearLayout style="@style/linearlayoutvertical">
+
+            <ImageView style="@style/logo" />
+
+            <Button
+                android:id="@+id/btnAddCakeCategory"
+                style="@style/button"
+                android:text="Add Cake Category" />
+
+            <Button
+                android:id="@+id/btnViewCakeCategory"
+                style="@style/button"
+                android:text="View Cake Category" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

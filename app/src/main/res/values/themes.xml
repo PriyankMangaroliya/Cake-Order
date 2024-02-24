@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Cake" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/bgcolor</item>
+        <item name="android:statusBarColor">@color/bgcolor</item>
+
+<!--        <item name="itemBackground">@android:color/holo_blue_bright</item>-->
+<!--        <item name="itemTextAppearance">@style/menustyle</item>-->
+    </style>
+
+<!--    <style name="menustyle" parent="@android:style/TextAppearance.Widget.IconMenu.Item">-->
+<!--        <item name="android:textColor">@android:color/holo_red_dark</item>-->
+<!--    </style>-->
+
+    <style name="Theme.Cake" parent="Base.Theme.Cake" />
+</resources>

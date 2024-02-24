@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:orientation="vertical"
+    tools:context=".HomePage">
+
+    <androidx.cardview.widget.CardView style="@style/card">
+
+        <LinearLayout style="@style/linearlayoutvertical">
+
+            <ImageView style="@style/logo" />
+
+            <Button
+                android:id="@+id/btnUserProfile"
+                style="@style/button"
+                android:text="User Profile" />
+
+            <Button
+                android:id="@+id/btnCakeCategory"
+                style="@style/button"
+                android:text="Cake Category" />
+
+            <Button
+                android:id="@+id/btnCakes"
+                style="@style/button"
+                android:text="Cakes" />
+
+            <Button
+                android:id="@+id/btnPlaceOrder"
+                style="@style/button"
+                android:text="Place Order" />
+
+            <Button
+                android:id="@+id/btnOrderHistory"
+                style="@style/button"
+                android:text="Order History" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

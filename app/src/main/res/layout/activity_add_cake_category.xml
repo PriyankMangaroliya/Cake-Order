@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:orientation="vertical"
+    tools:context=".AddCakeCategory">
+
+    <androidx.cardview.widget.CardView style="@style/card">
+
+        <LinearLayout style="@style/linearlayoutvertical">
+
+            <EditText
+                android:id="@+id/etCategoryName"
+                style="@style/EditText"
+                android:hint="Category Name" />
+
+            <EditText
+                android:id="@+id/etCategoryDescription"
+                style="@style/EditText"
+                android:hint="Category Description" />
+
+            <Button
+                android:id="@+id/btnSaveCategory"
+                style="@style/button"
+                android:text="Add Cake Category" />
+
+            <TextView
+                android:id="@+id/categoryNameTextView1"
+                style="@style/TextView" />
+
+
+            <TextView
+                android:id="@+id/categoryDescTextView1"
+                style="@style/TextView" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

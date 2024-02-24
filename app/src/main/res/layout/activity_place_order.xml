@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:orientation="vertical"
+    tools:context=".PlaceOrder">
+
+    <androidx.cardview.widget.CardView style="@style/card">
+
+        <LinearLayout style="@style/linearlayoutvertical">
+
+            <EditText
+                android:id="@+id/etName"
+                style="@style/EditText"
+                android:hint="User Name" />
+
+            <EditText
+                android:id="@+id/etAddress"
+                style="@style/EditText"
+                android:hint="Address" />
+
+            <EditText
+                android:id="@+id/etCity"
+                style="@style/EditText"
+                android:hint="City" />
+
+            <EditText
+                android:id="@+id/etContact"
+                style="@style/EditText"
+                android:hint="Contact Number"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                style="@style/EditText"
+                android:hint="Email" />
+
+            <Spinner
+                android:id="@+id/etCakeName"
+                style="@style/EditText" />
+
+            <TextView
+                android:id="@+id/etCategoryName"
+                style="@style/EditText"
+                android:text="Category"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/etPrice"
+                style="@style/EditText"
+                android:text="Price"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/etQty"
+                style="@style/EditText"
+                android:hint="Quantity"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/totalprice"
+                style="@style/EditText"
+                android:gravity="center"
+                android:text="Price"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnOrder"
+                style="@style/button"
+                android:text="Place Order" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

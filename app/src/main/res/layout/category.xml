@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView style="@style/cardView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout style="@style/linearlayouthorizontalview">
+
+                <TextView
+                    android:id="@+id/categoryName"
+                    style="@style/Text"
+                    android:text="Name : " />
+
+                <TextView
+                    android:id="@+id/categoryNameTextView"
+                    style="@style/TextView" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linearlayouthorizontalview">
+
+                <TextView
+                    android:id="@+id/fullName"
+                    style="@style/Text"
+                    android:text="Description : " />
+
+                <TextView
+                    android:id="@+id/categoryDescriptionTextView"
+                    style="@style/TextView" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
